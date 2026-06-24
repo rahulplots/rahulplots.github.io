@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#4F46E5" />
+
+  <title>Rahul Kumar — Data Analyst Portfolio | Turning Raw Data Into Actionable Insights</title>
+  <meta name="description" content="Rahul Kumar — Aspiring Data Analyst. Specializing in Python, SQL, Power BI, Tableau, and Excel. Turning raw data into actionable business insights." />
+  <meta name="keywords" content="Data Analyst, Python, SQL, Power BI, Tableau, Excel, Data Visualization, Portfolio, Rahul Kumar" />
+  <meta name="author" content="Rahul Kumar" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Rahul Kumar — Data Analyst Portfolio" />
+  <meta property="og:description" content="Turning raw data into actionable insights using Python, SQL, Power BI, Tableau and Excel." />
+  <meta property="og:type" content="website" />
+
+  <!-- Favicon (inline SVG) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%234F46E5'/%3E%3Cpath d='M16 44V32M26 44V20M36 44V28M46 44V24' stroke='white' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+  <!-- Skip link for accessibility -->
+  <a href="#home" class="sr-only">Skip to main content</a>
+
+            <!--NAVIGATION-->
+  <header class="navbar" id="navbar" role="banner">
+    <div class="nav-content">
+      <a href="#home" class="nav-logo" aria-label="Rahul Kumar — Home">
+        <span class="nav-logo-mark" aria-hidden="true">Mr</span>
+        <span class="nav-logo-text">Rahul<span style="color: var(--color-accent);">.</span></span>
+      </a>
+
+      <nav class="nav-menu" aria-label="Primary">
+        <a href="#home" class="nav-link active" data-section="home">Home</a>
+        <a href="#about" class="nav-link" data-section="about">About</a>
+        <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+        <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+        <a href="#experience" class="nav-link" data-section="experience">Experience</a>
+        <a href="#reviews" class="nav-link" data-section="reviews">Reviews</a>
+        <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="resume/Rahul-analyst-resume.pdf" download class="nav-cta nav-cta-desktop">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
+          </svg>
+          Resume
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
+    <a href="#home" class="nav-link" data-section="home">Home</a>
+    <a href="#about" class="nav-link" data-section="about">About</a>
+    <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+    <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+    <a href="#experience" class="nav-link" data-section="experience">Experience</a>
+    <a href="#reviews" class="nav-link" data-section="reviews">Reviews</a>
+    <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+    <a href="resume/Rahul-analyst-resume.pdf" target="_blank" download class="nav-cta">
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
+      </svg>
+      Download Resume
+    </a>
+  </nav>
+
+  <main id="main-content">
+
+    <!--HOME / HERO-->
+    <section id="home" class="hero section-tag" aria-label="Home">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <span class="role-tag reveal">
+              <span class="role-dot" aria-hidden="true"></span>
+              Available for Opportunities - Data Analyst
+            </span>
+
+            <h1 class="reveal" data-delay="1">
+              Turning Raw Data<br />
+              <span class="gradient-text">Into Actionable Insights</span>
+            </h1>
+
+            <p class="hero-description reveal" data-delay="2">
+              Hi, I'm <strong style="color: var(--color-text-primary);">Rahul Kumar</strong> — a passionate Data Analyst dedicated to analyzing, visualizing, and turning raw data into predictive solutions and meaningful business intelligence.
+            </p>
+
+            <div class="hero-skills reveal" data-delay="3" role="list" aria-label="Core skills">
+              <span class="hero-skill-chip" role="listitem">Python</span>
+              <span class="hero-skill-chip" role="listitem">Microsoft Excel</span>
+              <span class="hero-skill-chip" role="listitem">Power BI</span>
+              <span class="hero-skill-chip" role="listitem">Tableau</span>
+              <span class="hero-skill-chip" role="listitem">SQL</span>
+            </div>
+
+            <div class="hero-actions reveal" data-delay="4">
+              <a href="#projects" class="btn btn-primary btn-lg">
+                View Projects
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
+                </svg>
+              </a>
+              <a href="resume/Rahul-analyst-resume.pdf" target="_blank" download class="btn btn-secondary btn-lg">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
+                </svg>
+                Download Resume
+              </a>
+            </div>
+
+            <div class="hero-stats reveal" data-delay="5">
+              <div>
+                <div class="hero-stat-value" data-counter="15"  data-suffix="+">15</div>
+                <div class="hero-stat-label">Projects Completed</div>
+              </div>
+              <div>
+                <div class="hero-stat-value" data-counter="10" data-suffix="+">0</div>
+                <div class="hero-stat-label">Tools Mastered</div>
+              </div>
+              <div>
+                <div class="hero-stat-value" data-counter="500" data-suffix="+">0</div>
+                <div class="hero-stat-label">Hours of Practice</div>
+              </div>
+            </div>
+          </div>
+
+          <!--Dashboard Mockup -->
+          <div class="hero-visual reveal-scale" data-delay="2">
+            <div class="dashboard-mock" role="img" aria-label="Dashboard preview mockup">
+              <div class="mock-header">
+                <div class="mock-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+                <div class="mock-title">Sales Overview</div>
+                <div class="mock-period">Q4 2025</div>
+              </div>
+
+              <div class="mock-kpis">
+                <div class="mock-kpi">
+                  <div class="mock-kpi-label">Revenue</div>
+                  <div class="mock-kpi-value">₹24.8L</div>
+                  <div class="mock-kpi-trend">
+                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/></svg>
+                    +12.4%
+                  </div>
+                </div>
+                <div class="mock-kpi">
+                  <div class="mock-kpi-label">Orders</div>
+                  <div class="mock-kpi-value">1,284</div>
+                  <div class="mock-kpi-trend">
+                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/></svg>
+                    +8.2%
+                  </div>
+                </div>
+                <div class="mock-kpi">
+                  <div class="mock-kpi-label">Churn</div>
+                  <div class="mock-kpi-value">3.1%</div>
+                  <div class="mock-kpi-trend down">
+                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 18 13.5 8.5 8.5 13.5 1 6"/></svg>
+                    -1.4%
+                  </div>
+                </div>
+              </div>
+
+              <div class="mock-charts">
+                <div class="mock-chart">
+                  <div class="mock-chart-header">
+                    <div class="mock-chart-title">Weekly Revenue</div>
+                    <div class="mock-chart-tag">Live</div>
+                  </div>
+                  <div class="chart-area">
+                    <div class="chart-bars" aria-hidden="true">
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mock-chart">
+                  <div class="mock-chart-header">
+                    <div class="mock-chart-title">Channels</div>
+                  </div>
+                  <div class="chart-area">
+                    <div class="chart-donut">
+                      <svg class="donut-svg" viewBox="0 0 36 36" aria-hidden="true">
+                        <circle cx="18" cy="18" r="15.915" fill="none" stroke="#E2E8F0" stroke-width="3"/>
+                        <circle cx="18" cy="18" r="15.915" fill="none" stroke="#4F46E5" stroke-width="3" stroke-dasharray="45 55" stroke-dashoffset="25"/>
+                        <circle cx="18" cy="18" r="15.915" fill="none" stroke="#10B981" stroke-width="3" stroke-dasharray="30 70" stroke-dashoffset="-20"/>
+                        <circle cx="18" cy="18" r="15.915" fill="none" stroke="#F59E0B" stroke-width="3" stroke-dasharray="25 75" stroke-dashoffset="-50"/>
+                      </svg>
+                      <div class="donut-center">
+                        <strong>1.2k</strong>
+                        <span>Users</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="chart-line" aria-hidden="true">
+                <svg viewBox="0 0 400 60" preserveAspectRatio="none">
+                  <defs>
+                    <linearGradient id="lineGrad" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stop-color="#4F46E5" stop-opacity="0.25"/>
+                      <stop offset="100%" stop-color="#4F46E5" stop-opacity="0"/>
+                    </linearGradient>
+                  </defs>
+                  <path d="M0,45 C50,35 80,50 120,30 C160,15 200,40 240,25 C280,15 320,30 360,20 L400,15 L400,60 L0,60 Z" fill="url(#lineGrad)"/>
+                  <path d="M0,45 C50,35 80,50 120,30 C160,15 200,40 240,25 C280,15 320,30 360,20 L400,15" fill="none" stroke="#4F46E5" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </div>
+            </div>
+
+            <!-- Floating chips -->
+            <div class="float-chip float-chip-1" aria-hidden="true">
+              <span class="chip-icon">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+              </span>
+              Live KPI
+            </div>
+            <div class="float-chip float-chip-2" aria-hidden="true">
+              <span class="chip-icon">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              Goal Achieved
+            </div>
+            <div class="float-chip float-chip-3" aria-hidden="true">
+              <span class="chip-icon">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </span>
+              Updated 2m ago
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--ABOUT-->
+    <section id="about" class="section-tag" aria-label="About">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">About Me</span>
+          <h2>Who I Am &amp; What I Do</h2>
+          <p>A snapshot of my journey from curiosity to a career in data analytics.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-left reveal">
+            <h3 class="about-heading">
+              I Transform Complex Data Into <span class="gradient-text">Clear Business Decisions.</span>
+            </h3>
+            <p class="about-summary">
+              I’m a Data Science undergraduate and Data Analyst passionate about transforming raw data into meaningful insights. My journey began with a curiosity for numbers and problem-solving, which gradually evolved into a deep interest in analytics, business intelligence, and data storytelling.
+            </p>
+            <p class="about-summary">
+              Through academic learning and hands-on projects, I have developed experience with Microsoft Excel, SQL, Power BI, Tableau, and Python to analyze data, build interactive dashboards, and uncover trends that support decision-making. I enjoy working with complex datasets, identifying patterns, and presenting findings in a way that is both visually engaging and easy to understand.
+            </p>
+            <p class="about-summary">
+              Beyond technical skills, I believe that data becomes valuable only when it tells a clear story. Whether analyzing sales performance, customer behavior, financial trends, or operational metrics, my goal is to bridge the gap between data and business strategy. I continuously explore new technologies, analytical techniques, and real-world challenges to grow as a data professional and create solutions that deliver measurable impact. 
+            </p>
+
+            <div class="about-meta">
+              <div class="meta-item">
+                <div class="meta-label">Name</div>
+                <div class="meta-value">Rahul Kumar</div>
+              </div>
+              <div class="meta-item">
+                <div class="meta-label">Role</div>
+                <div class="meta-value">Data Analyst</div>
+              </div>
+              <div class="meta-item">
+                <div class="meta-label">Focus</div>
+                <div class="meta-value">BI &amp; predictive analysis</div>
+              </div>
+              <div class="meta-item">
+                <div class="meta-label">Status</div>
+                <div class="meta-value" style="color: var(--color-success);">Open to work</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-right reveal" data-delay="2">
+            <div class="profile-quote-row">
+              <img src="assets/images/Hero-photo.png" alt="Rahul Kumar" class="profile-photo">
+                <div class="quote-bubble">
+                  <svg class="bubble-shape" viewBox="0 0 360 160" preserveAspectRatio="none">
+                    <path d="M16 16 h300 a16 16 0 0 1 16 16 v70 a16 16 0 0 1 -16 16 h-180 l-20 24 v-24 h-100 a16 16 0 0 1 -16 -16 v-70 a16 16 0 0 1 16 -16 Z"
+                    fill="var(--color-surface)" stroke="var(--color-border)" stroke-width="1.5"/>
+                  </svg>
+                <div class="quote-bubble-content">
+                    <p class="quote-text">I believe every dataset tells a <span class="gradient-text">Story</span>. My job is to uncover that story and turn it into insights that help people make better decisions.</p>
+                    <p  class="quote-author">— Rahul Kumar</p>
+                </div>  
+            </div>
+          </div>
+            <div class="journey-card">
+              <h4>My Analytics Journey</h4>
+              <p class="journey-subtitle">A six-step path from spreadsheets to story-driven dashboards.</p>
+
+              <div class="journey-steps">
+                <div class="journey-step">
+                  <span class="step-mark">1</span>
+                  <div class="step-info">
+                    <div class="step-name">Excel Foundations</div>
+                    <div class="step-meta">Advanced Formulas · Pivot Tables · Charts · Dynamic Dashboards</div>
+                  </div>
+                </div>
+                <div class="journey-step">
+                  <span class="step-mark">2</span>
+                  <div class="step-info">
+                    <div class="step-name">SQL &amp; Databases</div>
+                    <div class="step-meta">Joins · CTEs · Window Functions · Data Modeling · Aggregations · Subqueries</div>
+                  </div>
+                </div>
+                <div class="journey-step">
+                  <span class="step-mark">3</span>
+                  <div class="step-info">
+                    <div class="step-name">Python for Analysis</div>
+                    <div class="step-meta">EDA · NumPy · Pandas · Matplotlib</div>
+                  </div>
+                </div>
+                <div class="journey-step">
+                  <span class="step-mark">4</span>
+                  <div class="step-info">
+                    <div class="step-name">Power BI Dashboards</div>
+                    <div class="step-meta">Advanced DAX· Data Modelling · Interactive Dashboards · Data Storytelling</div>
+                  </div>
+                </div>
+                <div class="journey-step">
+                  <span class="step-mark">5</span>
+                  <div class="step-info">
+                    <div class="step-name">Tableau Visualizations</div>
+                    <div class="step-meta">· Stories · Filters · Calculated Fields · Parameters</div>
+                  </div>
+                </div>
+                <div class="journey-step">
+                  <span class="step-mark">6</span>
+                  <div class="step-info">
+                    <div class="step-name">Real-World Projects</div>
+                    <div class="step-meta">End-to-end analysis &amp; insights</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--SKILLS-->
+    <section id="skills" class="section-tag" aria-label="Skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Skills &amp; Tools</span>
+          <h2>Tools I Use Every Day</h2>
+          <p>A focused toolkit for end-to-end data analysis, visualization, and storytelling.</p>
+        </div>
+
+        <div class="skills-grid" id="skillsGrid">
+          <!-- Dynamically rendered by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!--PROJECTS-->
+    <section id="projects" class="section-tag" aria-label="Projects" style="background-color: var(--color-bg-alt);">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Featured Work</span>
+          <h2>Projects &amp; Case Studies</h2>
+          <p>End-to-end analytics work across sales, customer, retail, and finance — placeholder dashboards ready to be swapped with real work.</p>
+        </div>
+        
+        <div class="projects-grid" id="projectsGrid">
+          <!-- Dynamically rendered by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!--EXPERIENCE (Timeline)-->
+    <section id="experience" class="section-tag" aria-label="Experience">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Experience</span>
+          <h2>My Journey So Far</h2>
+          <p>Education,Virtual internships, certifications and the milestones that shaped my career.</p>
+        </div>
+
+        <div class="timeline" id="experienceTimeline">
+          <!-- Dynamically rendered by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!--REVIEWS (Testimonials)-->
+    <section id="reviews" class="reviews section-tag" aria-label="Reviews">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Testimonials</span>
+          <h2>What People Say</h2>
+          <p>Words from mentors, peers and collaborators I've worked with on data projects.</p>
+        </div>
+
+        <div class="reviews-wrapper reveal">
+          <div class="reviews-track" id="reviewsTrack" aria-live="polite">
+            <!-- Dynamically rendered by JS -->
+          </div>
+
+          <div class="reviews-controls">
+            <div class="reviews-dots" id="reviewsDots" role="tablist" aria-label="Review slides"></div>
+            <div class="reviews-buttons">
+              <button class="reviews-btn" id="reviewsPrev" aria-label="Previous reviews">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+              </button>
+              <button class="reviews-btn" id="reviewsNext" aria-label="Next reviews">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--CONTACT-->
+    <section id="contact" class="contact section-tag" aria-label="Contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Get In Touch</span>
+          <h2>Let's Talk Data.</h2>
+          <p>Interested in collaborating, hiring, or discussing analytics opportunities? I'd love to hear from you.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <h3>Let's build something data-driven together.</h3>
+            <p>I'm currently open to internships, junior data analyst roles, and freelance analytics projects. Drop a message and I'll get back within 24 hours.</p>
+
+            <div class="contact-links">
+              <a href="mailto:rahul926320@gmail.com" class="contact-link">
+                <span class="contact-link-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </span>
+                <span class="contact-link-text">
+                  <span class="contact-link-label">Email</span>
+                  <span class="contact-link-value">rahul926320@gmail.com</span>
+                </span>
+              </a>
+
+              <a href="https://linkedin.com/in/rahul-kumar-7b57263b9" class="contact-link" target="_blank" rel="noopener">
+                <span class="contact-link-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </span>
+                <span class="contact-link-text">
+                  <span class="contact-link-label">LinkedIn</span>
+                  <span class="contact-link-value">linkedin.com/in/rahul-kumar-7b57263b9</span>
+                </span>
+              </a>
+
+              <a href="https://github.com/rahulplots" class="contact-link" target="_blank" rel="noopener">
+                <span class="contact-link-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                </span>
+                <span class="contact-link-text">
+                  <span class="contact-link-label">GitHub</span>
+                  <span class="contact-link-value">github.com/rahulplots</span>
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <form class="contact-form reveal" data-delay="2" id="contactForm" novalidate>
+            <h4>Send me a message</h4>
+            <p class="form-subtitle">I'll respond within 24 hours.</p>
+
+            <div class="form-group">
+              <label class="form-label" for="name">Name</label>
+              <input type="text" id="name" name="name" class="form-control" placeholder="Your full name" required />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="email">Email</label>
+              <input type="email" id="email" name="email" class="form-control" placeholder="you@example.com" required />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="message">Message</label>
+              <textarea id="message" name="message" class="form-control" placeholder="Tell me about your project, role or idea..." required></textarea>
+            </div>
+
+            <button type="submit" class="form-submit">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              Send Message
+            </button>
+
+            <div class="form-success" id="formSuccess" role="status">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Thanks! Your message has been sent. I'll get back to you shortly.
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!--FOOTER-->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-content">
+      <div class="footer-copy">
+        © <span id="year">2025</span> Rahul Kumar · Crafted with precision &amp; data.
+      </div>
+      <div class="footer-socials">
+        <a href="https://github.com/rahulplots"  target="_blank" class="footer-social" aria-label="GitHub">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/rahul-kumar-7b57263b9"  target="_blank" class="footer-social" aria-label="LinkedIn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        </a>
+        <a href="mailto:rahul926320@gmail.com" target="_blank" class="footer-social" aria-label="Email">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/projects.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

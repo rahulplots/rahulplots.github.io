@@ -1,0 +1,368 @@
+/*Extra Large Screens (≥1440px)*/
+@media (min-width: 1440px) {
+  :root {
+    --container-max: 1320px;
+  }
+
+  body {
+    font-size: 17px;
+  }
+}
+
+/*Large Laptops (≥1200px) — Default target*/
+@media (max-width: 1200px) {
+  .hero-content {
+    gap: var(--space-12);
+  }
+
+  .hero-visual {
+    height: 500px;
+  }
+}
+
+/*Tablets & Small Laptops (≤1024px)*/
+@media (max-width: 1024px) {
+  section {
+    padding: var(--space-20) 0;
+  }
+
+  .navbar {
+    padding: 8px 8px 8px 18px;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: inline-flex;
+  }
+
+  .nav-cta-desktop {
+    display: none;
+  }
+
+  .hero {
+    padding-top: calc(var(--navbar-height) + var(--space-16));
+  }
+
+  .hero-content {
+    grid-template-columns: 1fr;
+    gap: var(--space-12);
+  }
+
+  .hero-visual {
+    height: 480px;
+    max-width: 560px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-10);
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+  }
+
+  .review-card {
+    flex: 0 0 calc((100% - var(--space-5)) / 2);
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+
+/*Tablets (≤768px)*/
+@media (max-width: 768px) {
+  :root {
+    --container-padding: 1.25rem;
+  }
+
+  section {
+    padding: var(--space-16) 0;
+  }
+
+  .section-header {
+    margin-bottom: var(--space-10);
+  }
+
+  /* Navbar */
+  .navbar {
+    top: 12px;
+    width: calc(100% - 24px);
+    padding: 6px 6px 6px 16px;
+  }
+
+  .nav-logo {
+    font-size: var(--fs-base);
+  }
+
+  /* Hero */
+  .hero {
+    padding-top: calc(var(--navbar-height) + var(--space-12));
+  }
+
+  .hero h1 {
+    font-size: clamp(2.25rem, 9vw, 3.5rem);
+  }
+
+  .hero-description {
+    font-size: var(--fs-base);
+  }
+
+  .hero-actions .btn {
+    flex: 1;
+    min-width: 140px;
+  }
+
+  .hero-stats {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-3);
+  }
+
+  .hero-stat-value {
+    font-size: var(--fs-2xl);
+  }
+
+  .hero-stat-label {
+    font-size: var(--fs-xs);
+  }
+
+  .hero-visual {
+    height: 440px;
+  }
+
+  .float-chip {
+    font-size: 10px;
+    padding: 8px 12px;
+  }
+
+  .float-chip-1 { top: -8px; left: -12px; }
+  .float-chip-2 { bottom: 24px; right: -12px; }
+  .float-chip-3 { bottom: -10px; left: 12px; }
+
+  /* About */
+  .about-meta {
+    grid-template-columns: 1fr;
+  }
+
+  /* Skills */
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: var(--space-4);
+  }
+
+  /* Projects */
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-5);
+  }
+
+  /* Reviews */
+  .review-card {
+    flex: 0 0 100%;
+  }
+
+  /* Timeline */
+  .timeline {
+    padding-left: 32px;
+  }
+
+  .timeline::before {
+    left: 10px;
+  }
+
+  .timeline-dot {
+    left: -28px;
+    width: 14px;
+    height: 14px;
+  }
+
+  .timeline-content {
+    padding: var(--space-5);
+  }
+
+  /* Contact */
+  .contact-info,
+  .contact-form {
+    padding: var(--space-6);
+  }
+
+  .contact-info h3 {
+    font-size: var(--fs-2xl);
+  }
+
+  /* Footer */
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/*Mobile (≤480px)*/
+@media (max-width: 480px) {
+  :root {
+    --container-padding: 1rem;
+  }
+
+  body {
+    font-size: 15px;
+  }
+
+  section {
+    padding: var(--space-12) 0;
+  }
+
+  .section-header {
+    margin-bottom: var(--space-8);
+  }
+
+  .eyebrow {
+    font-size: var(--fs-xs);
+    padding: 5px 12px;
+  }
+
+  /* Navbar */
+  .navbar {
+    top: 10px;
+    width: calc(100% - 20px);
+    border-radius: var(--radius-xl);
+    padding: 6px 6px 6px 14px;
+  }
+
+  .nav-logo-text {
+    display: none;
+  }
+
+  .nav-logo-mark {
+    width: 36px;
+    height: 36px;
+  }
+
+  /* Hero */
+  .hero {
+    padding-top: calc(var(--navbar-height) + var(--space-8));
+  }
+
+  .hero h1 {
+    font-size: 2.25rem;
+  }
+
+  .hero-skills {
+    gap: 6px;
+  }
+
+  .hero-skill-chip {
+    font-size: var(--fs-xs);
+    padding: 6px 12px;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+  }
+
+  .hero-stats {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-4);
+  }
+
+  .hero-stat-value {
+    font-size: var(--fs-xl);
+  }
+
+  .hero-visual {
+    height: 380px;
+  }
+
+  .float-chip {
+    display: none;
+  }
+
+  /* About */
+  .about-heading {
+    font-size: 1.75rem;
+  }
+
+  .journey-card {
+    padding: var(--space-5);
+  }
+
+  .journey-step {
+    padding: var(--space-2);
+    gap: var(--space-3);
+  }
+
+  .journey-step .step-mark {
+    width: 36px;
+    height: 36px;
+    font-size: var(--fs-xs);
+  }
+
+  /* Skills */
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-card {
+    padding: var(--space-5);
+  }
+
+  /* Projects */
+  .project-body {
+    padding: var(--space-5);
+  }
+
+  /* Timeline */
+  .timeline-content h4 {
+    font-size: var(--fs-md);
+  }
+
+  /* Contact */
+  .contact-info,
+  .contact-form {
+    padding: var(--space-5);
+    border-radius: var(--radius-xl);
+  }
+
+  /* Footer */
+  .footer {
+    padding: var(--space-8) 0 var(--space-6);
+  }
+}
+
+/*Ultra-wide Screens (≥1920px)*/
+@media (min-width: 1920px) {
+  :root {
+    --container-max: 1440px;
+  }
+
+  body {
+    font-size: 18px;
+  }
+
+  section {
+    padding: var(--space-32) 0;
+  }
+}
+
+/*Print*/
+@media print {
+  .navbar, .nav-toggle, .reviews-controls, .reviews-buttons,
+  .hero-actions, .project-actions, .contact-form {
+    display: none !important;
+  }
+
+  body { background: #fff; color: #000; }
+  section { padding: 1rem 0; page-break-inside: avoid; }
+  .reveal, .reveal-scale { opacity: 1 !important; transform: none !important; }
+}
