@@ -216,8 +216,12 @@
   }
 
   /*Contact form (client-side)*/
+
   const form = document.getElementById('contactForm');
   const formSuccess = document.getElementById('formSuccess');
+
+  const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwjArMroSebc_fW9ybOsfStjQEkVki3ZLKo99iIs935iDuomXbgdDSXoT4j8IIWjnQwiA/exec';
+
   if (form && formSuccess) {
     form.addEventListener('submit', (e) => {
       e.preventDefault();
@@ -232,13 +236,35 @@
       const emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       if (!emailRe.test(email)) return;
 
-      // Show success state (replace with real endpoint in production)
-      formSuccess.classList.add('show');
-      form.reset();
-      setTimeout(() => formSuccess.classList.remove('show'), 5000);
+      const submitBtn = form.querySelector('.form-submit');
+      const originalBtnHTML = submitBtn.innerHTML;
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = 'Sending...';
+
+      fetch(SCRIPT_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'text/plain' }, // avoids CORS preflight
+        body: JSON.stringify({ name, email, message })
+      })
+        .then((res) => res.json())
+        .then((res) => {
+          if (res.result === 'success') {
+          formSuccess.classList.add('show');
+          form.reset();
+          setTimeout(() => formSuccess.classList.remove('show'), 5000);
+          } else {
+          alert('Something went wrong. Please try again or email me directly.');
+          }
+        })
+        .catch(() => {
+          alert('Something went wrong. Please try again or email me directly.');
+        })
+        .finally(() => {
+          submitBtn.disabled = false;
+        submitBtn.innerHTML = originalBtnHTML;
+        });
     });
   }
-
   /*Year in footer*/
   const yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();

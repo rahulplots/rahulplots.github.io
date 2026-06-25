@@ -2,8 +2,7 @@
 
 A personal portfolio website showcasing my journey, skills, and projects as a Data Analyst. Built to present my work in data analytics, business intelligence, and data storytelling in a clean, modern, and interactive format.
 
-🔗 **Live Site:** [Add your deployed link here]
-📄 **Resume:** [Add resume link here]
+🔗 **Live Site:** [rahulplots.github.io](https://rahulplots.github.io/)
 
 ---
 
@@ -30,10 +29,10 @@ The site highlights my skills across **Excel, SQL, Python, Power BI, and Tableau
 
 ## 🛠️ Tech Stack
 
-| Technology | Purpose |
-|------------|---------|
-| **HTML5** | Page structure and semantic markup |
-| **CSS3** | Styling, layout, and responsive design |
+| Technology           | Purpose                                        |
+| -------------------- | ---------------------------------------------- |
+| **HTML5**      | Page structure and semantic markup             |
+| **CSS3**       | Styling, layout, and responsive design         |
 | **JavaScript** | Interactivity, animations, and dynamic content |
 
 > Built with vanilla HTML, CSS, and JavaScript — no frameworks, no build step. Clone it and open `index.html` to run it locally.
@@ -99,14 +98,14 @@ portfolio/
 
 ## 📁 Featured Projects
 
-| Project | Description | Tools |
-|---------|-------------|-------|
-| PhonePe Transaction Analytics Dashboard | Interactive Power BI dashboard analyzing transactions, user behavior, and payment trends | Power BI, Excel |
-| Customer Churn Analysis | Identified churn drivers and predicted at-risk customers using behavioral segmentation | Python, Pandas, Tableau |
-| Retail Insights Dashboard | Multi-store dashboard covering basket analysis, inventory turnover, and category performance | Tableau, SQL, Excel |
-| E-Commerce Analytics | Conversion funnel, traffic sources, and cart abandonment analysis | Python, Power BI |
-| Financial KPI Dashboard | Executive dashboard tracking P&L, cash flow, and budget vs. actuals | Power BI, SQL, DAX |
-| Marketing Campaign Analysis | ROI, CAC, channel attribution, and A/B test analysis | Python, Tableau, Excel |
+| Project                                 | Description                                                                                  | Tools                   |
+| --------------------------------------- | -------------------------------------------------------------------------------------------- | ----------------------- |
+| PhonePe Transaction Analytics Dashboard | Interactive Power BI dashboard analyzing transactions, user behavior, and payment trends     | Power BI, Excel         |
+| Customer Churn Analysis                 | Identified churn drivers and predicted at-risk customers using behavioral segmentation       | Python, Pandas, Tableau |
+| Retail Insights Dashboard               | Multi-store dashboard covering basket analysis, inventory turnover, and category performance | Tableau, SQL, Excel     |
+| E-Commerce Analytics                    | Conversion funnel, traffic sources, and cart abandonment analysis                            | Python, Power BI        |
+| Financial KPI Dashboard                 | Executive dashboard tracking P&L, cash flow, and budget vs. actuals                          | Power BI, SQL, DAX      |
+| Marketing Campaign Analysis             | ROI, CAC, channel attribution, and A/B test analysis                                         | Python, Tableau, Excel  |
 
 > *Each project links to its own GitHub repository with detailed case studies.*
 
@@ -129,3 +128,8 @@ This project is open for viewing and reference. Please reach out before reusing 
 ---
 
 ⭐ If you found this portfolio inspiring or helpful, consider giving the repo a star!
+=====================================================================================
+
+# rahulplots.github.io
+
+A collection of my data analytics and visualization projects. Highlighting my journey transitioning into data science with hands-on work in database management and analytics tools

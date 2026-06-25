@@ -1290,9 +1290,8 @@ section {
   font-size: var(--fs-xs);
 }
 
-/* --------------------------------------------------------------------------
-   10. Experience (Timeline)
-   -------------------------------------------------------------------------- */
+/*Experience (Timeline)*/
+
 .timeline {
   position: relative;
   max-width: 880px;
@@ -1395,9 +1394,8 @@ section {
   font-weight: var(--fw-medium);
 }
 
-/* --------------------------------------------------------------------------
-   11. Reviews / Testimonials
-   -------------------------------------------------------------------------- */
+/* Reviews / Testimonials */
+
 .reviews {
   background: linear-gradient(180deg, var(--color-bg) 0%, var(--color-surface-alt) 100%);
 }
@@ -1555,9 +1553,7 @@ section {
   cursor: not-allowed;
 }
 
-/* --------------------------------------------------------------------------
-   12. Contact
-   -------------------------------------------------------------------------- */
+/*  Contact*/
 .contact {
   padding-bottom: var(--space-24);
 }
@@ -1761,9 +1757,7 @@ textarea.form-control {
 }
 .form-success.show { display: flex; }
 
-/* --------------------------------------------------------------------------
-   13. Footer
-   -------------------------------------------------------------------------- */
+/*Footer*/
 .footer {
   background-color: var(--color-surface);
   border-top: 1px solid var(--color-border);
@@ -1806,9 +1800,7 @@ textarea.form-control {
   transform: translateY(-2px);
 }
 
-/* --------------------------------------------------------------------------
-   14. Scroll Animations
-   -------------------------------------------------------------------------- */
+/*Scroll Animations */
 .reveal {
   opacity: 0;
   transform: translateY(24px);
@@ -1846,9 +1838,7 @@ textarea.form-control {
   transform: translateX(0);
 }
 
-/* --------------------------------------------------------------------------
-   15. Utilities
-   -------------------------------------------------------------------------- */
+/*Utilities */
 .text-center { text-align: center; }
 .mb-4 { margin-bottom: var(--space-4); }
 .mb-6 { margin-bottom: var(--space-6); }
