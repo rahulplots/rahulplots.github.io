@@ -293,6 +293,38 @@
     font-size: 1.75rem;
   }
 
+  .profile-quote-row {
+    flex-direction: column;
+  }
+
+  .profile-photo {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    aspect-ratio: 250 / 290;
+    margin: auto;
+  }
+
+  .quote-bubble {
+    min-height: auto;
+    width: 100%;
+  }
+
+  .quote-bubble-content {
+    height: auto;
+    width: 100%;
+  }
+
+  .quote-bubble-content::after {
+    top: -10px;
+    bottom: auto;
+    border-right: none;
+    border-bottom: none;
+    border-top: 1.5px solid var(--color-border);
+    border-left: 1.5px solid var(--color-border);
+    border-radius: 4px 0 0 0;
+  }
+
   .journey-card {
     padding: var(--space-5);
   }
